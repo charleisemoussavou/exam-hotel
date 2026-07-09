@@ -1,0 +1,359 @@
+*{
+
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+
+}
+
+
+
+body{
+
+    background:#ffffff;
+    color:#222;
+
+}
+
+
+
+
+
+header{
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:25px 60px;
+
+}
+
+
+
+
+.logo{
+
+    font-size:30px;
+    font-weight:bold;
+
+}
+
+
+
+.logo span{
+
+    color:#ff385c;
+
+}
+
+
+
+
+
+.search-bar{
+
+    display:flex;
+    align-items:center;
+    gap:15px;
+    padding:10px 20px;
+    border:1px solid #ddd;
+    border-radius:40px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.1);
+
+}
+
+
+
+
+
+.search-bar div{
+
+    padding:0 20px;
+    border-right:1px solid #ddd;
+
+}
+
+
+
+.search-bar small{
+
+    font-weight:bold;
+
+}
+
+
+
+.search-bar p{
+
+    color:#777;
+    margin-top:5px;
+
+}
+
+
+
+
+
+.search-bar button{
+
+    width:45px;
+    height:45px;
+    border-radius:50%;
+    border:none;
+    background:#ff385c;
+    color:white;
+    cursor:pointer;
+
+}
+
+
+
+
+
+nav{
+
+    padding:10px 60px;
+    display:flex;
+    gap:20px;
+
+}
+
+
+
+nav a{
+
+    text-decoration:none;
+    background:#ff385c;
+    color:white;
+    padding:12px 25px;
+    border-radius:25px;
+
+}
+
+
+
+
+
+main{
+
+    padding:30px 60px;
+
+}
+
+
+
+
+
+h1{
+
+    margin-bottom:30px;
+
+}
+
+
+
+
+
+.cards{
+
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:30px;
+
+}
+
+
+
+
+
+.card{
+
+    border-radius:20px;
+    overflow:hidden;
+    box-shadow:0 5px 20px #ddd;
+    background:white;
+
+}
+
+
+
+
+
+.image{
+
+    height:220px;
+    background:#eee;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:80px;
+
+}
+
+
+
+
+
+.content{
+
+    padding:20px;
+
+}
+
+
+
+
+
+.content h2{
+
+    margin-bottom:15px;
+
+}
+
+
+
+
+
+.content p{
+
+    margin:10px 0;
+
+}
+
+
+
+
+.status{
+
+    color:#ff385c;
+    font-weight:bold;
+
+}
+
+
+
+
+
+.cancel-btn{
+
+    display:inline-block;
+    margin-top:15px;
+    padding:10px 25px;
+    background:#222;
+    color:white;
+    border-radius:25px;
+    text-decoration:none;
+
+}
+
+
+
+
+
+.cancel-btn:hover{
+
+    background:#ff385c;
+
+}
+
+
+
+
+
+.form-container{
+
+    width:500px;
+    margin:50px auto;
+    padding:30px;
+    border-radius:20px;
+    box-shadow:0 5px 20px #ddd;
+
+}
+
+
+
+
+.form-container form{
+
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+
+}
+
+
+
+
+.form-container input,
+.form-container select{
+
+
+    padding:15px;
+    border-radius:10px;
+    border:1px solid #ddd;
+
+
+}
+
+
+
+
+
+.form-container button{
+
+    padding:15px;
+    border:none;
+    border-radius:30px;
+    background:#ff385c;
+    color:white;
+    cursor:pointer;
+
+}
+.ca-container{
+
+    display:flex;
+    justify-content:center;
+    margin-top:60px;
+
+}
+
+
+
+.ca-card{
+
+    width:450px;
+    padding:40px;
+    text-align:center;
+    border-radius:25px;
+    box-shadow:0 5px 20px #ddd;
+    background:white;
+
+}
+
+
+
+.ca-card .icon{
+
+    font-size:60px;
+    margin-bottom:20px;
+
+}
+
+
+
+.ca-card h2{
+
+    font-size:35px;
+    color:#ff385c;
+    margin-bottom:20px;
+
+}
+
+
+
+.ca-card p{
+
+    color:#777;
+
+}
